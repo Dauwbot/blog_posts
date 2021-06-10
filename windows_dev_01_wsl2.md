@@ -16,10 +16,8 @@ I don't want to have to dual boot to a Linux distro, I did it in the past and ma
 - I want to learn new things and Docker seems to be an excellent candidate.
 - I want people to be able to launch my pets projects easily (a man can dream).
 
-
-
 ## So how do I start this journey?
-
+---
 This article will mainly focus on getting WSL2 up and running, it's a quick painless jobs that I've written far too much words on already...
 
 Let's start with a clean install of Windows 10 21H1 : I only had 4GB left on my C drive and it was driving me crazy. If you want to know more about my own definition of clean install it'll be in another post coming *soon* (I think I've developed a fast and efficient TODO List for a clean install during the years).
@@ -49,15 +47,17 @@ You're running a Linux distribution from Windows without having to fiddle with V
 
 Btw if you've selected Ubuntu as your distribution you should upgrade the installed packages right away to start from a clean & up-to-date state. Just enter the following commands in your terminal
 
-`sudo apt update` to get an up-to-date list of software versions
-`sudo apt upgrade` to install those new versions
+to get an up-to-date list of software versions  
+`sudo apt update`  
+to install those new versions  
+`sudo apt upgrade`  
 
-In the next blog post we will focus on Docker and creating our contained waste management system, I mean development environment!
-
+In the next blog post we will focus on Docker and creating our contained waste management system, I mean development environment!  
+Feel free to read further for WSL/PowerShell/ZSH customization and other things.
 
 ### Quick tips
 - Your BIOS can be accessed by pressing DEL at boot and the virtualization option is, most of the time, in the Advanced Settings under CPU configuration.
-- If you want to forcefully remove a directory from Powershell use `Remove-Item PATH -Force`.
+- If you want to forcefully remove a directory from PowerShell use `Remove-Item PATH -Force`.
 - Install [Windows Terminal from the Microsoft Store](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab) it handles your Winux (yeah, I like this) distribution natively
  
 ### Linux tips
@@ -71,11 +71,11 @@ Further down we're talking of Windows Terminal and Oh-My-Zsh customization, feel
 I had some problem with PowerLine font not displaying correctly inside the Windows Terminal and had to fix it.
 - I followed [this tutorial](https://medium.com/@hjgraca/style-your-windows-terminal-and-wsl2-like-a-pro-9a2e1ad4c9d0).
 - Using normal PowerFonts install didn't work or I didn't select the correct font.
-- Fira Code, which I'm using on Mac, still had missing glyphs.
 - Finally I used [Delugia Nerd Font Complete](https://github.com/adam7/delugia-code) in it's Regular version so I've font ligatures (who doesn't loves them?).
-- I've since started using [this repository](https://github.com/ryanoasis/nerd-fonts) to get all my normal fonts with added nerdiness. Still need to do a PR to change the name of *FuraCode* back to *FiraCode* oh well...
-
-
+- I've since started using [this repository](https://github.com/ryanoasis/nerd-fonts) to get all my normal fonts with added nerdiness. Still need to do a PR to change the name of *FuraCode* back to *FiraCode* oh well...I'm using JetBrains Mono for now!
+- To set the default font for the whole Windows Terminal add this to the config.json inside the `profiles.defaults` object
+>   "fontFace": "JetBrainsMono Nerd Font",  
+>   "fontSize": 14
 
 Another problem I then encoutered following this guide is with the Install-Module command. It appears PowerShell does not auto-update to the latest version, or should I say Windows comes bundled wiht an older version, so I add to [manually download it from their website](https://aka.ms/powershell-release?tag=stable). The joy of Windows development once again.
 
