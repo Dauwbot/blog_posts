@@ -28,7 +28,7 @@ Let's resume our programs installation
 First install [Windows required runtimes and SDK](https://dotnet.microsoft.com/download/dotnet). I link directly to the download page you're grown ass developers.  
 Then install [PowerToys](https://aka.ms/installpowertoys). Why? It has Fancy Zones & I can launch program at *la Spotlight* by pressing the `alt + space` shortcut and once you get used to it you can do without.  
 
-## [Continue downloading programs manually](#those-are-the-tools) under or use a *package manager*. I'll try [Scoop](https://scoop.sh/) personally
+## [Continue downloading programs manually](#those-are-the-tools-i-use-to-develop-and-should-come-pre-installed-with-windows) under or use a *package manager*. I'll try [Scoop](https://scoop.sh/) personally
 
 ### [Scoop documentation](https://scoop-docs.vercel.app/docs/getting-started/Quick-Start.html#requirements)
 Since I've a separated drive for my install let's use it  
