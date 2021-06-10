@@ -2,7 +2,7 @@
 I will try to do a serie on modern web software development. And that on Windows (I can hear the laughs and the gasp of horror over my noise-cancelling headphones). I want to learn to develop with Docker and WSL so that I can develop on whichever platform my employer wants me without having to fiddle with installing Node dependencies, Yarn, npm and all that. I want my apps to be self-contained and able to be deployed on what-ever I've my hands on? (Does Docker containers runs on iPhones? ~~Someone should get on the case~~ *a quick check later and it appears it will never happen, oh well*).  
 And especially, I don't want to say "it works on my side" anymore. Because either:
 - I commited and did not push my changes
--  I added an .env variable and did not update my colleagues
+- I added an .env variable and did not update my colleagues
 - It's not working on my side but I can't have failed a deployment for the third time this month and now the whole website is down!
 
 This first part focus on my typical Windows 10 install. I use Windows because I like games, I don't want to fiddle with double boots on my personnal machine, my company gave me an awesome MacBook Pro and I've nothing against it but I like the simplicity of jsut installing a game and it working. I've played around with Arch Linux, Manjaro, OpenSuse, they're all awesome but most beginner developers use a Windows machine. I've installed and re-installed Windows at least 200 times.  
@@ -16,8 +16,8 @@ I started with computers on Windows Me. Which is an interesting point, story tim
 Preferably install an Education version, you can always [download the most up-to-date version from Microsoft own ISO creation tool](https://go.microsoft.com/fwlink/?LinkId=691209) - Why Education instead of Pro? Less bloatware to remove right after installation, [it's basically a fork of Pro without all the added fluff](https://support.microsoft.com/en-us/topic/windows-10-editions-for-education-customers-bf2572aa-5555-2b1e-f7ce-81e8ba890444#:~:text=Windows%2010%20Pro%20Education%20builds,including%20the%20removal%20of%20Cortana*.). You will have to provide your own license of course.
 
 ### Right after installation
-Don't connect to internet - You can but Windows will start downloading older display drivers on it's own
-Create a Domain account so your user name in windows is what you want
+Don't connect to internet - You can but Windows will start downloading older display drivers on it's own  
+Create a Domain account so your user name in windows is what you want.  
 Install graphic drivers - [nvidia](https://www.nvidia.com/Download/index.aspx) or [amd](https://www.amd.com/en/support)
 
 ### Now you've a choice to make (not mandatory)
