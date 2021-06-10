@@ -68,10 +68,10 @@ Feel free to read further for WSL/PowerShell/ZSH customization and other things.
 Further down we're talking of Windows Terminal and Oh-My-Zsh customization, feel free to leave
 
 ### WSL Customization
-I had some problem with PowerLine font not displaying correctly inside the Windows Terminal and had to fix it.
-- I followed [this tutorial](https://medium.com/@hjgraca/style-your-windows-terminal-and-wsl2-like-a-pro-9a2e1ad4c9d0).
-- Using normal PowerFonts install didn't work or I didn't select the correct font.
-- Finally I used [Delugia Nerd Font Complete](https://github.com/adam7/delugia-code) in it's Regular version so I've font ligatures (who doesn't loves them?).
+### This is only for fonts
+I had some problems with PowerLine font not displaying correctly inside the Windows Terminal and had to fix it.
+- I followed [this tutorial](https://medium.com/@hjgraca/style-your-windows-terminal-and-wsl2-like-a-pro-9a2e1ad4c9d0) & [this one by Dev Genius](https://blog.devgenius.io/make-your-powershell-7-truly-powerful-eb56b3fbe37f).
+
 - I've since started using [this repository](https://github.com/ryanoasis/nerd-fonts) to get all my normal fonts with added nerdiness. Still need to do a PR to change the name of *FuraCode* back to *FiraCode* oh well...I'm using JetBrains Mono for now!
 - To set the default font for the whole Windows Terminal add this to the config.json inside the `profiles.defaults` object
 >   "fontFace": "JetBrainsMono Nerd Font",  
