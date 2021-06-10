@@ -28,9 +28,9 @@ Let's resume our programs installation
 First install [Windows required runtimes and SDK](https://dotnet.microsoft.com/download/dotnet). I link directly to the download page you're grown ass developers.  
 Then install [PowerToys](https://aka.ms/installpowertoys). Why? It has Fancy Zones & I can launch program at *la Spotlight* by pressing the `alt + space` shortcut and once you get used to it you can do without.  
 
-### Continue downloading package manually under or use a *package manager*. I'll try [Scoop](https://scoop.sh/) personally
+## Continue downloading package manually[^1] under or use a *package manager*. I'll try [Scoop](https://scoop.sh/) personally
 
-## [Scoop documentation](https://scoop-docs.vercel.app/docs/getting-started/Quick-Start.html#requirements)
+### [Scoop documentation](https://scoop-docs.vercel.app/docs/getting-started/Quick-Start.html#requirements)
 Since I've a separated drive for my install let's use it  
 
 All the infos underneath is copy/pasted from [Scoop documentation](https://scoop-docs.vercel.app/docs/getting-started/Quick-Start.html#requirements)
@@ -49,7 +49,17 @@ I will need git for sure so for example I will do
 
 I'll get deeper into Scoop in another blog post. There's some caveat to be aware off : for example I add to manually add git to my path otherwise my terminals didn't know what I was talking about. It's a quick 2min job when you know what to do but it can be a pain. For now I'll finish listing my essentials apps for a developer using Windows, you go and install them how you want it was just a quick overview of Scoop as a package manager.
 
-Install Keeweb
+## Those are the tools I use to develop and should come pre-installed with Windows
+[^1]
+[Your JetBrains IDE of choice](https://www.jetbrains.com/products/) - I mainly use [Rider](https://www.jetbrains.com/rider/) since I prefer it, for my junior use, to [Visual Studio]() when I've to work with .NET projects. I also use it [to work with Unreal](https://www.jetbrains.com/lp/rider-unreal/). Btw it's free to access while in preview. I need to get used to [WebStorm](https://www.jetbrains.com/webstorm/) since I mainly do WebDev but Rider works well on it's own so...
+[Visual Studio Code](https://code.visualstudio.com/) I like it for the lightning fast launch time when working with .json files. I know people use it as their main development software but I feel like having to add multiple extensions, debuging code and all that is more suited to a full fledged IDE.
+[Insomnia](https://insomnia.rest/download) - It's my REST API tester, I know people use [Postman](https://www.postman.com/product/api-client/) also, I just like it better!
+
+## Those are my apps, I like them
+[KeeWeb](https://keeweb.info/) - Password manager
+[Thunderbird]() - My favorite mail client. Can be used with [Protonmail](https://protonmail.com/) when installing the [Protonmail bridge](https://protonmail.com/bridge/)
+
+
 
 
 ## Prog
