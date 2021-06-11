@@ -8,7 +8,7 @@ And especially, I don't want to say "it works on my side" anymore. Because eithe
 This first part focus on my typical Windows 10 install. I use Windows because I like games, I don't want to fiddle with double boots on my personnal machine, my company gave me an awesome MacBook Pro and I've nothing against it but I like the simplicity of just installing a game and it working. I've played around with Arch Linux, Manjaro, OpenSuse, they're all awesome but most beginner developers use a Windows machine. I've installed and re-installed Windows at least 200 times.  
 I started with computers on Windows Me. Which is an interesting point, story time:
 > My father bought it for me when I was away in Switzerland for a swimming meeting. He told me on the phone when I called using a pay-phone with a prepaid card. I was esthatic!  
-> When I came home and ran to see it I only saw the computer screen... It was already loop blue-screening and my father had taken it back to the store. Damn, I will tell my child(ren) this story they will be astonished!)
+> When I came home and ran to see it I only saw the computer screen... It was already loop blue-screening and my father had taken it back to the store. Damn, I will tell my child(ren) this story they will be astonished!
 
 # Windows 10 install
 
