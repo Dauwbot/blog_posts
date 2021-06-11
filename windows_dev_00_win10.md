@@ -70,7 +70,7 @@ I'll get deeper into Scoop in another blog post (maybe, maybe not, I'll add a Ji
 - An [updated version of PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-windows?view=powershell-7.1) - Seriously it will save you some headaches later down the StackOverflow line.
 - Finally [install WSL (version 2 preferrably)](https://docs.microsoft.com/en-us/windows/wsl/install-win10). Another article is coming out about it. I would love to have a clean development experience using Docker containers & WSL
 - Talking about it. If you so which to follow along this serie, [install Docker right now](https://docs.docker.com/docker-for-windows/install/)
-- If you want to learn gamedev chose between [Unity](https://unity.com/) & [Unreal](https://www.unrealengine.com/en-US/), how to chose? This is a sensible subject.
+- If you want to learn gamedev chose between [Unity](https://unity.com/) & [Unreal](https://www.unrealengine.com/en-US/), how to chose? This is a sensitive subject.
 -  You want to do 2D platformers? Go with [Unity](https://store.unity.com/download-nuo).
 -  You want hyper-realistic environment to do architecture representation? Go with [Unreal](https://www.unrealengine.com/en-US/download). 
 - [Version 5 is coming](https://www.unrealengine.com/en-US/unreal-engine-5) soon and it's an exciting time to join!
