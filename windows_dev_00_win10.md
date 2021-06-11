@@ -39,7 +39,7 @@ Recomended extensions for Chrome
 Let's resume our programs installation
 
 First install [Windows required runtimes and SDK](https://dotnet.microsoft.com/download/dotnet). I link directly to the download page you're grown ass developers.  
-Then install [PowerToys](https://aka.ms/installpowertoys). Why? It has Fancy Zones & I can launch program at *la Spotlight* by pressing the `alt + space` shortcut and once you get used to it you can do without.  
+Then install [PowerToys](https://aka.ms/installpowertoys). Why? It has Fancy Zones & I can launch program at *la Spotlight* by pressing the `alt + space` shortcut and once you get used to it you can't do without.  
 
 ## [Continue downloading programs manually](#those-are-the-tools-i-use-to-develop-and-should-come-pre-installed-with-windows) or use a *package manager*. I'll try [Scoop](https://scoop.sh/) personally
 
@@ -58,7 +58,7 @@ You can then install Scoop apps using
 `scoop install -g <app>`
 
 I will need git for sure so for example I will do  
-`scoop install -g git` and it will install git, and at the same time 7Zip which is needed to extract the portable version of git and which I would have installed anyway, winwin
+`scoop install -g git` and it will install git, and at the same time 7Zip which is needed to extract the portable version of git and I would've installed anyway, winwin
 
 I'll get deeper into Scoop in another blog post (maybe, maybe not, I'll add a Jira ticket). There's some caveat to be aware off : for example I add to manually add git to my path otherwise my terminals didn't know what I was talking about. It's a quick 2min job when you know what to do but it can be a pain. For now I'll finish listing my essentials apps for a developer using Windows, you go and install them how you want it was just a quick overview of Scoop as a package manager.
 
