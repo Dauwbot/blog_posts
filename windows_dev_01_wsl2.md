@@ -1,3 +1,7 @@
+---
+title: WSL2 basic installation
+published: false
+---
 # The why of this post
 
 First of all, as a Youtube content creator said whom I don't recall the name *Learning by teaching is the best way*. And I'm at a moment in my career that I want to apply this concept, let's see if it sticks for more than 2 weeks...

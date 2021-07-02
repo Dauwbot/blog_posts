@@ -1,3 +1,7 @@
+---
+title: The Docker recipe
+published: false
+---
 # In this post I bulk up and install Docker!
 
 I left you with a beautifull Linux distro running on WSL2 last time. I'm sure that you were able to bloat it correctly since?
