@@ -1,6 +1,6 @@
 ---
 title: Windows 10 installation instructions
-abstract: A post explaining my way of installing Windows 10 from scratch. No bullshit, (nearly) no registry manipulation. Clean and to the point t ohave a functionning installation without bloat.
+abstract: A post explaining my way of installing Windows 10 from scratch. No bullshit, (nearly) no registry manipulation. Get a functionning Windows 10 installation with minimum bloat!
 published: false
 categories: WindowsDev Win10 Web
 ---
