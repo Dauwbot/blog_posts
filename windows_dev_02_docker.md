@@ -1,7 +1,11 @@
 ---
 title: The Docker install recipe
 abstract: Now that we've a working local environment, running on WSL2, let's install Docker in it!
-categories: [WindowsDev, Win10, WSL2, Linux, Docker]
+categories: 
+- WindowsDev
+- Win10
+- WSL2
+- Docker
 published: false
 ---
 # In this post I bulk up and install Docker!
