@@ -1,8 +1,8 @@
 ---
 title: Windows 10 installation instructions
 abstract: A post explaining my way of installing Windows 10 from scratch. No bullshit, (nearly) no registry manipulation. Get a functionning Windows 10 installation with minimum bloat!
-published: false
-categories: WindowsDev Win10 Web
+categories: [WindowsDev, Win10, Web]
+published: true
 ---
 ## Boring intro ([skip to the meat of this article](#windows-10-install))
 I will try to do a serie on modern web software development. And that on Windows (I can hear the laughs and the gasp of horror over my noise-cancelling headphones). I want to learn to develop with Docker and WSL so that I can develop on whichever platform my employer wants me without having to fiddle with installing Node dependencies, Yarn, npm and all that. I want my apps to be self-contained and able to be deployed on what-ever I've my hands on? (Does Docker containers runs on iPhones? ~~Someone should get on the case~~ *a quick check later and it appears it will never happen, oh well*).  
