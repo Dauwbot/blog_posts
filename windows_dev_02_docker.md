@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/blogPost.astro
 title: The Docker install recipe
 abstract: Now that we've a working local environment, running on WSL2, let's install Docker in it!
 categories: 
