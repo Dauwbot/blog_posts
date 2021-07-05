@@ -1,12 +1,13 @@
 ---
 layout: ../../layouts/blogPost.astro
 title: WSL2 basic installation
-abstract: So we want to install Linux on a Windows 10 machine? All that without using VMs? Here's the post you've been looking for!
+abstract: So you want to install Linux on a Windows 10 machine? All that without using VMs? Here's the post you've been looking for!
 categories: 
 - WindowsDev
 - Win10
 - WSL2
-published: false
+published: true
+date: 20210705
 ---
 # The why of this post
 

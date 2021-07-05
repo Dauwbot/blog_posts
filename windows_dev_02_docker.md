@@ -7,7 +7,8 @@ categories:
 - Win10
 - WSL2
 - Docker
-published: false
+published: true
+date: 20210705
 ---
 # In this post I bulk up and install Docker!
 
