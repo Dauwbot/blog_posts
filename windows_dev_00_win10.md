@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/blogPost.astro
+layout: ../../layouts/thoughtPost.astro
 title: Windows 10 installation instructions
 abstract: A post explaining my way of installing Windows 10 from scratch. No bullshit, (nearly) no registry manipulation. Get a functionning Windows 10 installation with minimum bloat!
 categories: 
