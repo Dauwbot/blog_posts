@@ -5,6 +5,7 @@ abstract: There's a new player in town. Meet Astro! The framework that allow you
 categories: 
 - Astro
 - Blog
-published: true
-date: 
+published: false
+date: 20210709
 ---
+# One framework to rule them all!
