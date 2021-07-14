@@ -3,8 +3,7 @@ layout: ../../layouts/thoughtPost.astro
 title: The Docker install recipe
 abstract: Now that we've a working local environment, running on WSL2, let's install Docker in it!
 categories: 
-- WindowsDev
-- Win10
+- Windows Development
 - WSL2
 - Docker
 published: true
