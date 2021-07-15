@@ -57,7 +57,7 @@ If you check the code you will see that I've removed words from a certain length
 ## Create our password
 So now I'm left with 2 files to chose from, let's go with 3 words length for the password.
 
-```
+```js
 static List<string> ReadAllLinesFromFiles (string directoryPath) {
     int fCount = Directory.GetFiles(directoryPath, "*.txt", SearchOption.TopDirectoryOnly).Length;
     var random = new Random();
@@ -72,7 +72,7 @@ This *method* (we're doing OOP, our function is part of a class so it's a method
 
 ### The main loop
 
-```
+```js
 static void Main(string[] args)
 {
     StringBuilder sb = new StringBuilder();
