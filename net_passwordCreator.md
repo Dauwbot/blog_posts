@@ -59,13 +59,13 @@ So now I'm left with 2 files to chose from, let's go with 3 words length for the
 
 ```js
 static List<string> ReadAllLinesFromFiles (string directoryPath) {
-    int fCount = Directory.GetFiles(directoryPath, "*.txt", SearchOption.TopDirectoryOnly).Length;
-    var random = new Random();
-    int fileIndex = random.Next(fCount);
-    string[] files = Directory.GetFiles(directoryPath, "*.txt", SearchOption.TopDirectoryOnly);
-    string filePath = files[fileIndex];
-    return File.ReadAllLines(filePath).ToList();
-}
+     int fCount = Directory.GetFiles(directoryPath, "*.txt", SearchOption.TopDirectoryOnly).Length;
+     var random = new Random();
+     int fileIndex = random.Next(fCount);
+     string[] files = Directory.GetFiles(directoryPath, "*.txt", SearchOption.TopDirectoryOnly);
+     string filePath = files[fileIndex];
+     return File.ReadAllLines(filePath).ToList();
+ }
 ```
 
 This *method* (we're doing OOP, our function is part of a class so it's a method), index our files in a directory and choose a random one. It's name is not that good then, I'll rename it right now (2.42PM on the 15th July 2021) to `ReadAllLinesFromRandomFileInDirectory`, so I don't need any kind of doc to explain what it does. It returns a List\<String> for easier randomization in the main loop.
@@ -74,17 +74,17 @@ This *method* (we're doing OOP, our function is part of a class so it's a method
 
 ```js
 static void Main(string[] args)
-{
-    StringBuilder sb = new StringBuilder();
-    for (int i = 0; i < 3; i++ ){
-        var list = ReadAllLinesFromRandomFileInDirectory("./sourceFiles/");
-        var random = new Random();
-        int index = random.Next(list.Count);
-        sb.Append(list[index]);
-    }
-    Console.WriteLine(sb.ToString());
-    TextCopy.ClipboardService.SetText(sb.ToString());
-}
+ {
+     StringBuilder sb = new StringBuilder();
+     for (int i = 0; i < 3; i++ ){
+         var list = ReadAllLinesFromRandomFileInDirectory("./sourceFiles/");
+         var random = new Random();
+         int index = random.Next(list.Count);
+         sb.Append(list[index]);
+     }
+     Console.WriteLine(sb.ToString());
+     TextCopy.ClipboardService.SetText(sb.ToString());
+ }
 ```
 
 Too finish here's my main function. It select a random word from our random List and append it to a stringbuilder.
